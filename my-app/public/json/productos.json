@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "idCategoria": "Accion",
         "nombre": "God of War",
         "plataforma": "Ps4",
         "precio": 60000,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "idCategoria": 2,
+        "idCategoria": "Multiplayer",
         "nombre": "Crash Team Racing",
         "plataforma": "Ps4",
         "precio": 35000,
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "idCategoria": 3,
+        "idCategoria": "Shooter",
         "nombre": "The last of us",
         "plataforma": "Ps4",
         "precio": 57000,
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "idCategoria": 4,
+        "idCategoria": "Deportes",
         "nombre": "Fifa 23",
         "plataforma": "Ps4",
         "precio": 8000,

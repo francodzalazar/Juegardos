@@ -7,19 +7,19 @@ const Categorias = () => {
         <button className="btn btn-secondary"><Link className="nav-link" to={"/"}>Inicio</Link></button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/1"}>Accion</Link></button>
+      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/Accion"}>Accion</Link></button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/2"}>Estrategia</Link></button>
+      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/Deportes"}>Deportes</Link></button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/3"}>Lucha</Link></button>
+      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/Lucha"}>Lucha</Link></button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/4"}>Multiplayer</Link></button>
+      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/Multiplayer"}>Multiplayer</Link></button>
       </li>
       <li className="nav-item">
-      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/5"}>Shooter</Link></button>
+      <button className="btn btn-secondary"><Link className="nav-link" to={"/category/Shooter"}>Shooter</Link></button>
       </li>
     </ul>
   );
