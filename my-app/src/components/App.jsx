@@ -1,17 +1,16 @@
 import './App.css';
 import Navbar from './Navbar/Navbar';
-import Form from './Form/Form';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
-import ItemCount from './ItemCount/ItemCount';
-
-function App() {
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
+const App = () => {
+  
   return (
-  <>
-    <Navbar/>
-    <Form busqueda={"Buscar productos"} />
-    <ItemListContainer greeting={"Aqui van los productos"} />
-    <ItemCount/>
-  </>
+    <> 
+      <Navbar/>
+      <ItemListContainer/>
+      <ItemDetailContainer/>
+    </>
+      
   );
 }
 

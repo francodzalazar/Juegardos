@@ -2,9 +2,8 @@
     {
         "id": 1,
         "idCategoria": 1,
-        "nombre": "Notebook",
-        "marca": "Lenovo",
-        "modelo": "Y510P",
+        "nombre": "God of War",
+        "plataforma": "Ps4",
         "precio": 60000,
         "stock": 30,
         "img": "gow.jpg"
@@ -12,9 +11,8 @@
     {
         "id": 2,
         "idCategoria": 2,
-        "nombre": "Celular",
-        "marca": "Xiomi",
-        "modelo": "Mi-9",
+        "nombre": "Crash Team Racing",
+        "plataforma": "Ps4",
         "precio": 35000,
         "stock": 20,
         "img": "crash.jpg"
@@ -22,21 +20,19 @@
     {
         "id": 3,
         "idCategoria": 3,
-        "nombre": "Smart Tv",
-        "marca": "Novatech",
-        "modelo": "50D1U",
+        "nombre": "The last of us",
+        "plataforma": "Ps4",
         "precio": 57000,
         "stock": 15,
-        "img": "smart-tv-novatech.jpg"
+        "img": "lou.jpg"
     },
     {
         "id": 4,
         "idCategoria": 4,
-        "nombre": "Camara ",
-        "marca": "iQual",
-        "modelo": "C40",
+        "nombre": "Fifa 23",
+        "plataforma": "Ps4",
         "precio": 8000,
         "stock": 30,
-        "img": "camara-iqual.jpg"
+        "img": "fifa.jpg"
     }
 ]
