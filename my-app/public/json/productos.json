@@ -4,7 +4,7 @@
         "idCategoria": "Accion",
         "nombre": "God of War",
         "plataforma": "Ps4",
-        "precio": 60000,
+        "precio": 4199,
         "stock": 30,
         "img": "gow.jpg"
     },
@@ -13,7 +13,7 @@
         "idCategoria": "Multiplayer",
         "nombre": "Crash Team Racing",
         "plataforma": "Ps4",
-        "precio": 35000,
+        "precio": 3499,
         "stock": 20,
         "img": "crash.jpg"
     },
@@ -22,7 +22,7 @@
         "idCategoria": "Shooter",
         "nombre": "The last of us",
         "plataforma": "Ps4",
-        "precio": 57000,
+        "precio": 1999,
         "stock": 15,
         "img": "lou.jpg"
     },
