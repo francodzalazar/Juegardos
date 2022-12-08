@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar/Navbar';
 import Form from './Form/Form';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
+import ItemCount from './ItemCount/ItemCount';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Navbar/>
     <Form busqueda={"Buscar productos"} />
     <ItemListContainer greeting={"Aqui van los productos"} />
+    <ItemCount/>
   </>
   );
 }
