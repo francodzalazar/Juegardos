@@ -1,11 +1,22 @@
+import {useState, useEffect} from 'react';
+import ItemList from '../ItemList/ItemList.jsx';
+import { consultarBDD } from '../../assets/funciones.js';
+const ItemListContainer = () => {
 
-
-const ItemListContainer = ({ greeting }) => {
+    const [productos, setProductos] = useState([]);
+    useEffect(() => {
+            consultarBDD().then(products => {
+                const productsList= products.filter(prod => prod.stock > 0)
+                const cardProductos = ItemList({productsList})
+                setProductos(cardProductos)
+            })
+        
+    },[]);
     return (
-        <>
-            <h4>{greeting}</h4>
-        </>
+        <div className= 'row cardProductos' >
+            {productos}
+        </div>
     );
-};
+}
 
 export default ItemListContainer;

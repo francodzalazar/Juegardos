@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Notebook",
+        "marca": "Lenovo",
+        "modelo": "Y510P",
+        "precio": 60000,
+        "stock": 30,
+        "img": "gow.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Celular",
+        "marca": "Xiomi",
+        "modelo": "Mi-9",
+        "precio": 35000,
+        "stock": 20,
+        "img": "crash.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": 3,
+        "nombre": "Smart Tv",
+        "marca": "Novatech",
+        "modelo": "50D1U",
+        "precio": 57000,
+        "stock": 15,
+        "img": "smart-tv-novatech.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": 4,
+        "nombre": "Camara ",
+        "marca": "iQual",
+        "modelo": "C40",
+        "precio": 8000,
+        "stock": 30,
+        "img": "camara-iqual.jpg"
+    }
+]
